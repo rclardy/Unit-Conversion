@@ -36,7 +36,7 @@ function convertVals() {
     3
   )} gallons | ${inputValue} gallons = ${gallonToLiter.toFixed(3)} liters`;
 
-  kiloLbsOutput.textContent = `${inputValue} pounds = ${kiloToPound.toFixed(
+  kiloLbsOutput.textContent = `${inputValue} kilos = ${kiloToPound.toFixed(
     3
   )} pounds | ${inputValue} pounds = ${poundToKilo.toFixed(3)} kilos`;
 }
