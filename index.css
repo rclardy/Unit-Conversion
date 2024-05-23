@@ -17,9 +17,15 @@
   3. Add accessible line-height
   4. Improve text rendering
 */
+html,
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  background: #181a18;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 /*
   5. Improve media defaults
@@ -80,9 +86,19 @@ h6 {
   background: #6943ff;
   color: #ffffff;
 }
+#bottomHalf {
+  background: #1f2937;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
 
 .app-name {
   font-size: 1.5rem;
+  font-weight: 800;
+  line-height: 38px;
+  color: #ffffff;
 }
 
 .user-input {
@@ -101,9 +117,40 @@ h6 {
 }
 
 .convert-btn {
-  width: 85px;
+  width: 117px;
+  height: 40px;
   margin: 10px auto;
   text-align: center;
   padding: 3px 10px;
   box-sizing: border-box;
+  background: #ffffff;
+  color: #181a18;
+  font-weight: 500;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+}
+
+.return-vals {
+  background: #273549;
+  height: 90px;
+  margin: auto 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.units {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #ccc1ff;
+  line-height: 20px;
+}
+
+.unit-vals {
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 20px;
 }
